@@ -121,7 +121,3 @@ img {
 <?php
   return ob_get_clean();
 }
-
-function betweenTarnAndSean($from_name, $to_name) {
-  return (($from_name == "Sean Wertheim" && $to_name == "Chanida Susumpow") || ($from_name == "Chanida Susumpow" && $to_name == "Sean Wertheim"));
-}
