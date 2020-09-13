@@ -1,5 +1,5 @@
 <?php
-date_default_timezone_set('UTC');
+date_default_timezone_set('America/New_York');
 
 $db = new PDO('sqlite:' . $_SERVER['HOME'] . '/Desktop/chat.db');
 
