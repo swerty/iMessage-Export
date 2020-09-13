@@ -72,8 +72,8 @@ while($line = $query->fetch(PDO::FETCH_ASSOC)) {
 
   fputcsv($fp, array(
     $line['date'],
-    date('Y-m-d', $line['date']),
-    date('H:i:s', $line['date']),
+    date('m/d/Y', $line['date']),
+    date('g:i:s A', $line['date']),
     $from,
     $from_name,
     $to,
