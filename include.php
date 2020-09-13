@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('UTC');
 
-$db = new PDO('sqlite:' . $_SERVER['HOME'] . '/Library/Messages/chat.db');
+$db = new PDO('sqlite:' . $_SERVER['HOME'] . '/Desktop/chat.db');
 
 $keys = array_keys(load_contacts());
 $me = array_shift($keys);
