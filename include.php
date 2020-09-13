@@ -123,5 +123,5 @@ img {
 }
 
 function betweenTarnAndSean($from_name, $to_name) {
-  return (($from_name == "Sean Wertheim" && $to_name == "Tarn Susumpow") || ($from_name == "Tarn Susumpow" && $to_name == "Sean Wertheim"));
+  return (($from_name == "Sean Wertheim" && $to_name == "Chanida Susumpow") || ($from_name == "Chanida Susumpow" && $to_name == "Sean Wertheim"));
 }
